@@ -444,7 +444,7 @@ html, body {
 .showcase {
   text-align: center;
   position: relative;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("images/gallery/image01.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("Responsive-Coffee-Shop/images/image01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
