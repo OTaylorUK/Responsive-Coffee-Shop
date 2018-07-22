@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kranky" rel="stylesheet">
+
+  <title>London Coffee House</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+
+        <div class="header-one h-content">
+          <h1 class="header-title">Contact Us:</h1>
+          <p><b>Tel:</b></p>
+          <p>0208 123 4567</p>
+          <p><b>Email:</b></p>
+          <p>info@londoncoffeehouse.com</p>
+        </div>
+        <div class="header-two h-content">
+          <h1 class="header-title">Opening Hours:</h1>
+          <p><b>Monday - Friday:</b></p>
+          <p>8.00 am - 5.30 pm </p>
+          <p><b>Saturday:</b></p>
+          <p>8.30 am - 4.30 pm </p>
+          <p><b>Sunday:</b></p>
+          <p>9.00 am - 4.00 pm </p>
+        </div>
+        <div id="googlemap">
+        </div>
+      </div>
+    </div>
+
+    <!--NAVIGATION-->
+    <header id="main-nav" class="nav clearHeader">
+      <h1 class="logo">London Coffee House</h1>
+      <nav class="nav-mobile">
+        <ul id="side-nav" class="nav-mobile-menu">
+          <li><a href="#"><span>Home</span></a></li>
+          <li><a href="#intro-text"><span>About us</span></a></li>
+          <li><a href="#cafe-menu"><span>Menu</span></a></li>
+          <li><a href="#photos-gallery-main"><span>Gallery</span></a></li>
+          <li><a href="#" id="modalBtn"><span>Contact us</span></a></li>
+        </ul>
+        <div id="nav-toggle" class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!--SHOWCASE-->
+    <div id="showcase" class="showcase">
+      <div class="showcase-container">
+        <h1>London's best kept secret</h1>
+        <p>SW7 5BD</p> <br>
+      </div>
+      <div class="circle">
+        <a href="#intro-text"><i class="fa fa-angle-down scroll-icon"></i></a>
+      </div>
+    </div>
+
+    <!--ABOUT-->
+    <div id="intro-text" class="intro-text">
+      <div class="text-container">
+        <h1>Our story</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis minus alias neque eveniet ex, ratione, itaque nobis commodi aliquam expedita.</p>
+        <p>Suscipit iusto, ipsum aspernatur sapiente. Nam voluptatem, aspernatur perspiciatis accusantium.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fugit, eveniet aliquam sapiente rem ipsa. Maxime qui dicta dignissimos omnis.</p>
+      </div>
+    </div>
+
+    <!--MENU-->
+    <section id="section-a" class="section-a">
+      <div class="circle-two">
+        <a href="#cafe-menu"><i class="fa fa-angle-down  scroll-icon"></i></a>
+      </div>
+      <div class="menu-selected-display" id="cafe-menu">
+        <div class="active menu-list holder">
+          <h1 class="holder-text">Choose from the list below...</h1>
+        </div>
+        <!--COFFEE-->
+        <div class="hot-drink menu-list" id="hot-drink">
+          <div class="list-title">
+            <span class="title">Coffee</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Cappucino</span>
+            <span class="empty"></span>
+            <span class="price">£2.20</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Latte</span>
+            <span class="empty"></span>
+            <span class="price">£2.20</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Flat White</span>
+            <span class="empty"></span>
+            <span class="price">£2.20</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Espresso</span>
+            <span class="empty"></span>
+            <span class="price">£1.80</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Americano</span>
+            <span class="empty"></span>
+            <span class="price">£2.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Hot Chocolate</span>
+            <span class="empty"></span>
+            <span class="price">£2.20</span>
+          </div>
+        </div>
+
+        <!--COLD DRINKS-->
+        <div class="cold-drink menu-list" id="cold-drink">
+          <div class="list-title">
+            <span class="title">Cold Drinks</span>
+          </div>
+          <div class="list-item">
+            <span class="item">San Pellegrino</span>
+            <span class="empty"></span>
+            <span class="price">£2.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Birra Moretti <span class="size">0.33L</span></span>
+            <span class="empty"></span>
+            <span class="price">£3.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Stella Artois <span class="size">0.33L</span></span>
+            <span class="empty"></span>
+            <span class="price">£3.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Mojito</span>
+            <span class="empty"></span>
+            <span class="price">£3.20</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Long Island</span>
+            <span class="empty"></span>
+            <span class="price">£3.20</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Cosmopolitan</span>
+            <span class="empty"></span>
+            <span class="price">£3.20</span>
+          </div>
+        </div>
+
+        <!--WINE-->
+        <div class="wine menu-list" id="wine">
+          <div class="list-title">
+            <span class="title">Wine list</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Velvet Devil Merlot</span>
+            <span class="empty"></span>
+            <span class="price">£10.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Zuccardi Malbec</span>
+            <span class="empty"></span>
+            <span class="price">£20.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Bar Malbec</span>
+            <span class="empty"></span>
+            <span class="price">£25.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Pinot Grigio</span>
+            <span class="empty"></span>
+            <span class="price">£10.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Sauvignon Blanc</span>
+            <span class="empty"></span>
+            <span class="price">£20.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Chardonnay</span>
+            <span class="empty"></span>
+            <span class="price">£25.00</span>
+          </div>
+        </div>
+
+        <!--BREAKFAST-->
+        <div class="breakfast menu-list" id="breakfast">
+          <div class="list-title">
+            <span class="title">Breakfast</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Croissant</span>
+            <span class="empty"></span>
+            <span class="price">£3.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Parisien Eggs</span>
+            <span class="empty"></span>
+            <span class="price">£4.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Yogurt Parfait</span>
+            <span class="empty"></span>
+            <span class="price">£3.50</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Breakfast Crêpes</span>
+            <span class="empty"></span>
+            <span class="price">£3.00</span>
+          </div>
+        </div>
+
+        <!--LUNCH-->
+        <div class="lunch menu-list" id="lunch">
+          <div class="list-title">
+            <span class="title">Lunch</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Chese Toastie</span>
+            <span class="empty"></span>
+            <span class="price">£3.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Bread Board Platter</span>
+            <span class="empty"></span>
+            <span class="price">£10.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Tasting Board</span>
+            <span class="empty"></span>
+            <span class="price">£10.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Mezze Platter</span>
+            <span class="empty"></span>
+            <span class="price">£15.00</span>
+          </div>
+
+          <div class="list-item">
+            <span class="item">Nacho Sharing Platter</span>
+            <span class="empty"></span>
+            <span class="price">£10.00</span>
+          </div>
+        </div>
+
+        <!--DESSERT-->
+        <div class="dessert menu-list" id="dessert">
+          <div class="list-title">
+            <span class="title">Desserts</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Banoffee Pie</span>
+            <span class="empty"></span>
+            <span class="price">£6.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Chocolate Brownie</span>
+            <span class="empty"></span>
+            <span class="price">£5.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">Crème Brûlée</span>
+            <span class="empty"></span>
+            <span class="price">£6.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item">British Cheese Board</span>
+            <span class="empty"></span>
+            <span class="price">£6.00</span>
+          </div>
+          <div class="list-item">
+            <span class="item"> Chocolate chip cookie</span></span>
+            <span class="empty"></span>
+            <span class="price">£4.00</span>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="menu-title-two">Browse by category</h2>
+      <div class="menu-category-grid">
+
+        <div class="menu-item m-one" id="hot-btn">
+          <img src="images/svg/coffee.svg" alt="" class="menu-item-svg">
+          <h3 class="menu-item-title">Hot drinks</h3>
+        </div>
+
+        <div class="menu-item m-two" id="cold-btn">
+          <img src="images/svg/beer.svg" alt="" class="menu-item-svg">
+          <h3 class="menu-item-title">Cold drinks</h3>
+        </div>
+
+        <div class="menu-item m-three" id="wine-btn">
+          <img src="images/svg/wine.svg" alt="" class="menu-item-svg">
+          <h3 class="menu-item-title">Wine</h3>
+        </div>
+
+        <div class="menu-item m-four" id="breakfast-btn">
+          <img src="images/svg/croissant.svg" alt="" class="menu-item-svg">
+          <h3 class="menu-item-title">Breakfast</h3>
+        </div>
+
+        <div class="menu-item m-five" id="lunch-btn">
+          <img src="images/svg/hamburger.svg" alt="" class="menu-item-svg">
+          <h3 class="menu-item-title">Lunch</h3>
+        </div>
+
+        <div class="menu-item m-six" id="dessert-btn">
+          <img src="images/svg/cupcake.svg" alt="" class="menu-item-svg">
+          <h3 class="menu-item-title">Desserts</h3>
+        </div>
+      </div>
+
+    </section>
+    <!--PHOTO GALLERY-->
+
+    <div id="photos-gallery-main" class="photos">
+      <div class="gallery-title">
+        <h1>gallery</h1>
+      </div>
+      <div class="gallery-container">
+        <div class="main-image">
+          <img class="main-image-current" src="images/gallery/i1.jpg" id="current-image">
+        </div>
+
+        <div class="image-gallery">
+          <img class="image-option" src="images/gallery/i1.jpg">
+          <img class="image-option" src="images/gallery/i2.jpg">
+          <img class="image-option" src="images/gallery/i3.jpg">
+          <img class="image-option" src="images/gallery/i4.jpg">
+          <img class="image-option" src="images/gallery/i5.jpg">
+          <img class="image-option" src="images/gallery/i6.jpg">
+          <img class="image-option" src="images/gallery/i7.jpg">
+          <img class="image-option" src="images/gallery/i8.jpg">
+        </div>
+      </div>
+
+    </div>
+
+    <!--FOOTER-->
+    <footer id="footer" class="footer">
+      <div class="icon-container">
+        <a href="#showcase"><i class="fa fa-angle-double-up top-arrow"></i></a>
+      </div>
+
+      <div class="social-media">
+        <a href="#showcase"><i class="fab fa-facebook-square sm-icons"></i></a>
+        <a href="#showcase"><i class="fab fa-twitter-square sm-icons"></i></a>
+        <a href="#showcase"><i class="fab fa-instagram sm-icons"></i></a>
+        <a href="#showcase"><i class="fab fa-pinterest-square sm-icons"></i></a>
+      </div>
+      <div class="footer-content">
+
+        <div class="footer-one">
+          <h1>Our Address</h1>
+          <h3>10 Random Address, London, SW7 5BD </h3>
+          <h3>Tel: 0208 123 4567 </h3>
+        </div>
+
+        <div class="footer-two">
+          <div class="footer-three">
+            <h5><a href="#">Website created by Ollie Taylor</a> </h5>
+          </div>
+          <div class="credits">
+            Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+              target="_blank">CC 3.0 BY</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!--JAVASCRIPT-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJX49R87E0X84Vqb07kXNwYF3F3tNInyw&callback=initMap">
+  </script>
+
+  <script src="js/modal.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $("#nav-toggle").on("click", function() {
+        $("#side-nav, #main-nav, #showcase, #section-a, #section-b, #section-c, #footer").toggleClass("open");
+      });
+      $('#nav-toggle').click(function() {
+        $(this).toggleClass('open');
+      });
+    });
+
+    $(document).ready(function() { //displays hidden content
+      $("#cold-btn").on("click", function() {
+        $(".menu-list").removeClass('active');
+        $("#cold-drink").addClass("active");
+      });
+      $("#hot-btn").on("click", function() {
+        $(".menu-list").removeClass('active');
+        $("#hot-drink").addClass("active");
+      });
+      $("#wine-btn").on("click", function() {
+        $(".menu-list").removeClass('active');
+        $("#wine").addClass("active");
+      });
+      $("#breakfast-btn").on("click", function() {
+        $(".menu-list").removeClass('active');
+        $("#breakfast").addClass("active");
+      });
+      $("#lunch-btn").on("click", function() {
+        $(".menu-list").removeClass('active');
+        $("#lunch").addClass("active");
+      });
+      $("#dessert-btn").on("click", function() {
+        $(".menu-list").removeClass('active');
+        $("#dessert").addClass("active");
+      });
+    });
+
+    $(function() {
+      //caches a jQuery object containing the header element
+      var nav = $(".clearHeader");
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 600) {
+          nav.removeClass('clearHeader').addClass("darkHeader");
+        } else {
+          nav.removeClass("darkHeader").addClass('clearHeader');
+        }
+      });
+    });
+
+    function initMap() {
+      // The location of London
+      var london = {
+        lat: 51.496768,
+        lng: -0.176369
+      };
+      // The map, centered at London
+      var map = new google.maps.Map(
+        document.getElementById('googlemap'), {
+          zoom: 15,
+          center: london
+        });
+      // The marker, positioned at London
+      var marker = new google.maps.Marker({
+        position: london,
+        map: map
+      });
+    }
+
+    const current = document.querySelector("#current-image");
+    const imgs = document.querySelectorAll(".image-option");
+    const opacity = 0.6;
+
+    // Set first img opacity
+    imgs[0].style.opacity = opacity;
+
+    imgs.forEach(img => img.addEventListener("click", imgClick));
+
+    function imgClick(e) {
+      // Reset the opacity
+      imgs.forEach(img => (img.style.opacity = 1));
+
+      // Change current image to src of clicked image
+      current.src = e.target.src;
+
+      // Add fade in class
+      current.classList.add("fade-in");
+
+      // Remove fade-in class after .5 seconds
+      setTimeout(() => current.classList.remove("fade-in"), 500);
+
+      // Change the opacity to opacity var
+      e.target.style.opacity = opacity;
+    }
+  </script>
+
+</body>
+</html>
