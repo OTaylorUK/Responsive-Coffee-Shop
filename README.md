@@ -1,12 +1,8 @@
 # Responsive-Coffee-Shop
 
-This is my first ever complete website that I have built. 
+This is the first published website that I have submitted to Github.
 
-I'm sure there's lots of room for improvement but I think it is vital to make your work public.
+Feedback and comments are appreciated and can be submitted using pull requests.
 
-I'm happy to receive comments, feedback or notes on my website/code:
-- I know that there will be many suggested improvements, which I'm happy to listen to and work to improve.
-- Try to keep all comments/changes constructive
-
-Thanks for reading,
+Thanks,
 Ollie
